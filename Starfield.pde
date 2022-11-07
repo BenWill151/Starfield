@@ -21,11 +21,11 @@ void draw(){
     bubs[i].rise();
     bubs[i].show();
   }  
-  PImage img;
-  
-  img = loadImage("pony.png");  
-  img.resize(50,50);
-  image(img,mouseX,mouseY);
+  //PImage img;  
+  //img = loadImage("pony.png");  
+  //img.resize(50,50);
+  //image(img,mouseX,mouseY);
+  ellipse(mouseX, mouseY, 25,25);
   
 }
 
